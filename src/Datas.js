@@ -37,11 +37,11 @@ let Datas = [
       {
         id: 8,
         route: "/box/opasity",
-        name: "Opasity",
+        name: "Opacity",
       },
     ],
   },
-  
+
   {
     id: 19,
     title: "Text",

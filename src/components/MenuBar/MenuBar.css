@@ -1,52 +1,52 @@
 .menu {
-    width: 40vh;
-    max-height: 100vh;
-    background-color: #030303;
-    color: rgb(7, 7, 7);
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    gap: 40px;
-    top: 65px;
-    left: -100%;
-    transition: all .6s ease-in-out;
-    padding: 40px 0 100px;
-    overflow: auto;
+  width: 40vh;
+  max-height: 100vh;
+  background-color: #030303;
+  color: rgb(7, 7, 7);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  gap: 40px;
+  top: 65px;
+  left: -100%;
+  transition: all 0.6s ease-in-out;
+  padding: 40px 0 100px;
+  overflow: auto;
 }
 
 .active {
-    left: 0;
+  left: 0;
 }
 
 .group_Menu {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
 }
 
 .title_Menu {
-    color: #e3e3f3;
-    font-weight: bold;
+  color: #e3e3f3;
+  font-weight: bold;
 }
 
 .Menu_btn {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 
 .btn_Menu {
-    color: #e61414;
+  color: #141fe6;
 }
 
 .btn_Menu:hover {
-    color: rgba(197, 18, 205, 1);
+  color: rgb(255, 255, 255);
 }
 
-.actived{
-    color: rgba(197, 18, 205, 1);
+.actived {
+  color: rgb(255, 255, 255);
 }
