@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import copyed from "../../func";
 import "./../generalStyle.css";
 import "./FlexBox.css";
+import Header from "../../components/Header/Header/Header";
+import MenuBar from "../../components/MenuBar/MenuBar";
 
 export default function FlexBox() {
   const [flex, setFlex] = useState({
@@ -13,8 +15,7 @@ export default function FlexBox() {
     "justify-content": "center",
   });
 
-  const { copyClickText, btnCopyTextChange, mainVariant } =
-    useContext(MainContext);
+  const { copyClickText, btnCopyTextChange, mainVariant } = useContext(MainContext);
 
   const justifyContentHandler = (e) => {
     setFlex({ ...flex, "justify-content": e.target.value });
@@ -42,6 +43,8 @@ export default function FlexBox() {
       exit="exit"
       className="style_Container"
     >
+      <Header />
+      <MenuBar />
       <span className="titr">FlexBox</span>
       <div className="top_box">
         <div className="preview_wraper">

@@ -1,0 +1,49 @@
+.landing-body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background-image: url("../../../public/images/landing_page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 4rem;
+}
+
+.landing-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing-logo {
+  font-family: "Offside", cursive;
+  font-size: 3rem;
+}
+
+.nav-login-signup-btn {
+  cursor: pointer;
+}
+
+.project-desc {
+  padding-top: 5rem;
+}
+
+.project-desc > h1,
+.project-desc > h3,
+.project-desc > p {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.project-desc > h1 {
+  font-size: 3.2rem;
+}
+
+.project-desc > h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.project-desc > p {
+  width: 50rem;
+  margin: 2rem 0rem;
+}

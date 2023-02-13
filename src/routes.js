@@ -10,14 +10,18 @@ import FontSize from "./pages/Text/FontSize";
 import Textcolor from "./pages/Text/Textcolor";
 import TextDecoration from "./pages/Text/TextDecoration";
 import Texttransform from "./pages/Text/Texttransform";
+import LandingPage from "./pages/LandingPage/LandingPage";
 import LetterSpacing from "./pages/Text/LetterSpacing";
 import Lineheight from "./pages/Text/Lineheight";
 import Textalign from "./pages/Text/Textalign";
 import FontWeight from "./pages/Text/FontWeight";
 import FlexBox from "./pages/FlexBox/FlexBox";
+import UserLoginSignup from "./pages/UserLoginSignup/UserLoginSignup";
 
 let router = [
-  { path: "/", element: <Home /> },
+  { path: "/", element: <LandingPage /> },
+  { path: "/verification", element: <UserLoginSignup /> },
+  { path: "/home", element: <Home /> },
   { path: "/backgroundcolor", element: <Backgroundcolor /> },
   { path: "/backgroundgradient", element: <Backgroundgradient /> },
   { path: "/border", element: <Border /> },

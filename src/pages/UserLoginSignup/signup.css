@@ -1,0 +1,62 @@
+.signup-body {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-image: url("../../../public/images/signupBG.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signup-form-section {
+  flex: 1;
+  padding: 0rem 1.5rem;
+}
+
+.signup-form {
+  height: 80%;
+  padding: 0rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-form > input {
+  color: grey;
+  margin: 1rem 0rem;
+  padding: 0.6rem 0rem;
+  border: none;
+  border-bottom: 2px solid grey;
+  background-color: transparent;
+}
+
+.create-account-btn {
+  padding: 0.8rem 4rem;
+  color: white;
+  background-color: #087bcf;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+.goto-login {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.signup-side-section {
+  flex: 1;
+  background-color: rgba(80, 80, 80, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.signup-side-text {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 10px;
+}
